@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Certificates", link: "#certificates" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Ecommerce ",
       des: "I designed my e-commerce website with the latest technology to provide a seamless shopping experience. My priority was crafting a user-friendly interface with intuitive navigation and responsive design for all devices. I incorporated strong security measures to safeguard customer data and ensure secure transactions. Ongoing testing and optimization were crucial to improving performance and reliability.",
-      img: "./p2.svg",
+      img: "./ecom.jpeg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/SiddiquiSaima/MERN-Ecommerce-Web-App",
     },
@@ -149,45 +149,52 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Software Development",
+      provider: "NPTEL",
+      desc: "My participation in the NPTEL Software Engineering course provided a comprehensive foundation in the software developmenlifecycle (SDLC). I gained proficiency in requirements engineering, ensuring a clear understanding of user needs. The course equipped me with design principles for building efficient and robust software. Additionally, I honed my skills in software testing methodologies, guaranteeing high-quality, bug-free deliverables. This course significantly enhanced my ability to contribute to all aspects of the software development process.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Data Analytics with Python ",
+      provider: "NPTEL",
+      desc: "This certificate in Data Analytics with Python was earned, showcasing proficiency in analyzing complex data sets using Python. The certification equipped the recipient with skills in data manipulation, cleaning, and visualization using Pandas and NumPy. Expertise was gained in statistical analysis, exploratory data analysis (EDA), regression analysis, and data mining to transform raw data into actionable insights.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+    // {
+    //   id: 3,
+    //   title: "Freelance App Dev Project",
+    //   provider: "",
+    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Lead Frontend Developer",
+    //   provider: "",
+    //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    //   className: "md:col-span-2",
+    //   thumbnail: "/exp4.svg",
+    // },
   ];
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      linkto:"https://github.com/SiddiquiSaima"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/wha.svg",
+      linkto:"https://api.whatsapp.com/send?phone=919429366397"
     },
     {
       id: 3,
       img: "/link.svg",
+      linkto: "https://www.linkedin.com/in/saimasiddiqui7/"
     },
   ];
